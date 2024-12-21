@@ -1,3 +1,92 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Figtree Italic";
+  src: url("fonts/Figtree-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  background-color: #f4d04e;
+}
+
+.card {
+  width: 384px;
+  height: 522px;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
+  background-color: #fff;
+}
+
+#blog-image {
+  width: 336px;
+  height: 200px;
+  margin: 24px 24px 0 24px;
+  border-radius: 10px;
+}
+
+.learning-container {
+  width: 82px;
+  height: 29px;
+  margin: 0;
+  background-color: #f4d04e;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-family: "Figtree", sans-serif;
+  font-weight: ExtraBold;
+  font-size: 24px;
+}
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  font-weight: ExtraBold;
+  font-size: 14px;
+}
+
+#published-date {
+  font-family: "Figtree", sans-serif;
+  font-weight: medium;
+  font-size: 14px;
+}
+
+#description {
+  font-family: "Figtree", sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  color: #6b6b6b;
+}
+
+.content {
+  width: 336px;
+  height: 194px;
+  margin: 24px 24px 0 24px;
+}
+
+.author {
+  width: 129px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+#greg-hooper {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+/* Already in the file */
+
 .attribution {
   font-size: 11px;
   text-align: center;
