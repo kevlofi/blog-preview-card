@@ -22,11 +22,43 @@ body {
   background-color: #fff;
 }
 
-#blog-image {
+.svg-container {
   width: 336px;
   height: 200px;
   margin: 24px 24px 0 24px;
   border-radius: 10px;
+  overflow: hidden;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 327px;
+    height: 501px;
+  }
+
+  .svg-container {
+    width: 279px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  #blog-image {
+    object-fit: cover;
+    object-position: -30px 0;
+  }
+
+  #learning {
+    font-size: 12px;
+  }
 }
 
 .learning-container {
@@ -43,13 +75,6 @@ h2 {
   font-family: "Figtree", sans-serif;
   font-weight: ExtraBold;
   font-size: 24px;
-}
-h5 {
-  margin: 0;
-  padding: 0;
-  font-family: "Figtree", sans-serif;
-  font-weight: ExtraBold;
-  font-size: 14px;
 }
 
 #published-date {
