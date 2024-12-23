@@ -23,6 +23,7 @@ body {
   width: 384px;
   height: 522px;
   margin: 0 auto;
+  margin-top: 20px;
   border: 1px solid black;
   border-radius: 20px;
   box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
