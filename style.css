@@ -38,29 +38,6 @@ h5 {
   font-size: 14px;
 }
 
-@media (max-width: 500px) {
-  .card {
-    width: 327px;
-    height: 501px;
-  }
-
-  .svg-container {
-    width: 279px;
-    height: 200px;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-
-  #blog-image {
-    object-fit: cover;
-    object-position: -30px 0;
-  }
-
-  #learning {
-    font-size: 12px;
-  }
-}
-
 .learning-container {
   width: 82px;
   height: 29px;
@@ -73,19 +50,19 @@ h5 {
 }
 h2 {
   font-family: "Figtree", sans-serif;
-  font-weight: ExtraBold;
+  font-weight: 800;
   font-size: 24px;
 }
 
 #published-date {
   font-family: "Figtree", sans-serif;
-  font-weight: medium;
+  font-weight: 500;
   font-size: 14px;
 }
 
 #description {
   font-family: "Figtree", sans-serif;
-  font-weight: medium;
+  font-weight: 500;
   font-size: 16px;
   color: #6b6b6b;
 }
@@ -118,4 +95,53 @@ h2 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+#lesson-link {
+  color: #000;
+  text-decoration: none;
+}
+
+#lesson-link:hover {
+  color: #f4d04e;
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 327px;
+    height: 501px;
+  }
+
+  .svg-container {
+    width: 279px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  #blog-image {
+    object-fit: cover;
+    object-position: -30px 0;
+  }
+
+  #learning {
+    font-size: 12px;
+  }
+
+  #published-date {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  #description {
+    font-size: 14px;
+  }
+
+  .content {
+    width: 279px;
+    height: 173px;
+  }
 }
